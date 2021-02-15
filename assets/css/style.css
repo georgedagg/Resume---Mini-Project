@@ -2,6 +2,10 @@
 
 /* Colors */
 
+.bg-color-contact{
+    background-color: #fff;
+}
+
 .bg-color-personal-info {
     background-color: #f4f4f4;
 }
@@ -341,4 +345,40 @@ footer{
 
 .history-items{
     margin-bottom:30px;
+}
+
+/* Contact Form */
+
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.center-form{
+    padding-top:10px;
+    margin:0 auto; /* How you can center content 0 top and bottom, auto left and right */
+    max-width:70%;
+}
+
+button[type="submit"]{
+    margin-top:15px;
+    margin-bottom:20px;
+    color:#fafafa;
+    background-color:  #c56918;
+    border-color: #c56918;
+}
+
+/* Media Query - only takes effect when the width of the screen is 992 px or greater */
+
+@media(min-width:992px){
+
+    .center-form{
+    padding-top:30px;
+    margin:0 auto; /* How you can center content 0 top and bottom, auto left and right */
+    max-width:50%;
+    min-height:240px;
+    
+}
 }
